@@ -146,7 +146,7 @@ puts "Size:                 #{ll.size}"
 puts "Tail:                 #{ll.tail}"
 puts "Element at index 5:   #{ll.at(5)}"
 puts "List contains 2:      #{ll.contains?(2)}"
-ll.prepend(2)
+ll.append(2)
 # 2, 12, 23, 200, 20, 10, 15, 2000000
 
 puts "Now contains 2:       #{ll.contains?(2)}"
