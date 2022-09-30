@@ -152,5 +152,4 @@ ll.prepend(2)
 puts "Now contains 2:       #{ll.contains?(2)}"
 puts "Find index of  15:    #{ll.find(15)}"
 puts "Find index of  3:     #{ll.find(3)}"
-print "Full List:            "
-puts "#{ll.to_s}"
+print "Full List:            "; puts ll.to_s
